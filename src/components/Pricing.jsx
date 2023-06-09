@@ -7,7 +7,6 @@ import { cn } from '@/util/cn'
 import dayjs from 'dayjs'
 import { useState } from 'react'
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr'
-import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'
 
 export function Pricing() {
   const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
